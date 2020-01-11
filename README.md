@@ -1,4 +1,4 @@
-# Direct  Visual-Inertial  Ego-Motion  Estimationvia  Iterated  Extended  Kalman  Filter
+# Direct  Visual-Inertial  Ego-Motion  Estimation via  Iterated  Extended  Kalman  Filter
 By Shangkun Zhong and Pakpong Chirarattananon
 
 ## Introduction
