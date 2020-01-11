@@ -1,0 +1,78 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+# Camera calibration and distortion parameters (OpenCV) 
+Camera.w: 752
+Camera.h: 480
+Camera.fx: 364.91104
+Camera.fy: 364.97213
+Camera.cx: 379.9119
+Camera.cy: 245.53235
+Camera.k1: -0.31777330
+Camera.k2: 0.096232944
+Camera.p1: -0.0001119
+Camera.p2: 0.00033364
+Camera.newfx: 450.
+Camera.newfy: 450.
+Camera.newcx: 320.
+Camera.newcy: 220.
+
+
+
+#t_imu = t_cam + shift
+CameraIMU.TimeShift: 0.0
+
+CameraIMU.bTci: 0
+CameraIMU.T: !!opencv-matrix
+    rows: 3
+    cols: 4
+    dt: f
+    data: [-0.00646620000000000, -0.99994994000000004, -0.00763565000000000, 0.0053, 0.99997908999999996, -0.00646566000000000, -0.00009558000000000, -0.043019, 0.00004620000000000, -0.00763611000000000, 0.99997084000000003, 0.02303]
+
+Config.FrameRows: 480
+Config.FrameCols: 752
+Config.OriginFrameRows: 480
+Config.OriginFrameCols: 752
+Config.DownSample: 1
+Config.MaxIteration: 2
+Config.UseHuber: 0
+
+Config.ImageWeight: 100
+Config.Scale: 0.15
+Config.UseLK: 0
+#Config.SigmaAxy: 5e-5
+#Config.SigmaAz: 5e-5
+Config.SigmaAx: 1e-4
+Config.SigmaAy: 1e-4
+Config.SigmaAz: 1e-4
+Config.SigmaBa: 1e-6
+Config.SigmaWx: 1e-6
+Config.SigmaWy: 1e-6
+Config.SigmaWz: 1e-6
+Config.SigmaBw: 1e-8
+Config.SigmaAlpha: 1e-4
+Config.SigmaVarthetaXY: 1e-4
+Config.SigmaVarthetaZ: 1e-3
+Config.SigmaN:  1e-4
+Config.SigmaG: 1e-4
+
+Config.SigmaAlpha0: 1e0
+Config.SigmaVartheta0: 1e2
+Config.SigmaN0: 1e1
+Config.SigmaG0: 1e0
+Config.SigmaBa0: 1e-4
+Config.SigmaBw0: 1e-6
+Config.RobustDelta: 1e-1
+Config.ShowLog: 0
+
+Init.Alpha0: 10.
+Init.Vartheta0X: 0.
+Init.Vartheta0Y: 0.
+Init.Vartheta0Z: 0.
+Init.N0X: 0.2
+Init.N0Y: -0.4
+Init.G0X: 0.
+Init.G0Y: 0.
