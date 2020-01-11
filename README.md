@@ -17,6 +17,15 @@ cd build
 cmake ..
 make
 ```
+### Run
+One example sequence can be downloaded [here](https://portland-my.sharepoint.com/:u:/g/personal/shanzhong4-c_ad_cityu_edu_hk/ESGCGKcTQflCm3JJ9jSYeG0B50ufNBB3Mzw6CBnRJ3yfrQ?e=Y74edp). Extract the files to the root directory of the project 
+```
+unzip example_seq.zip
+``` 
+and run:
+```
+./build/main
+```
 
 
 ## Contact
