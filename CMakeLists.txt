@@ -29,6 +29,7 @@ include_directories(${kindr_INCLUDE_DIRS})
 
 include_directories(
 	include
+	${OpenCV_INCLUDE_DIRS}
 	${EIGEN3_INCLUDE_DIR}
 	${Boost_INCLUDE_DIR}
 	${GFLAGS_INCLUDE_DIRS}
