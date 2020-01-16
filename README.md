@@ -3,7 +3,7 @@ By Shangkun Zhong and Pakpong Chirarattananon
 
 ## Introduction
 
-This  letter  proposes  a  reactive  navigation  strategyfor recovering the altitude, translational velocity and orientationof  Micro  Aerial  Vehicles.  The  main  contribution  lies  in  the direct  and  tight  fusion  of  Inertial  Measurement  Unit  (IMU) measurements  with  monocular  feedback  under  an  assumption of  a  single  planar  scene.  For more details, please refer to our RA-L [paper]().
+This  letter  proposes  a  reactive  navigation  strategyfor recovering the altitude, translational velocity and orientationof  Micro  Aerial  Vehicles.  The  main  contribution  lies  in  the direct  and  tight  fusion  of  Inertial  Measurement  Unit  (IMU) measurements  with  monocular  feedback  under  an  assumption of  a  single  planar  scene.  For more details, please refer to our RA-L [paper](https://arxiv.org/abs/2001.05215).
 
 ## Dependencies
 c++11, opencv, eigen, kindr, boost, glog, gflags
